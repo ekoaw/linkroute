@@ -1,0 +1,5 @@
+# Links to these hosts open in the work profile; everything else opens in the
+# default one. One per line. "example.com" also matches its subdomains. A line
+# ending in "." is a prefix (for IPs, e.g. "10.0.0.").
+example.com
+10.0.0.

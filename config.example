@@ -1,0 +1,9 @@
+# ~/.config/linkroute/config (sourced as shell)
+# Command that starts Brave: brave, brave-origin, ...
+browser=brave
+# Separate user-data-dir for the work profile; its own process gets its own
+# taskbar entry.
+work_data_dir="$HOME/.config/BraveSoftware/Brave-Browser-Work"
+# Window class (Wayland app_id) of work windows; match it in the work
+# launcher's StartupWMClass.
+work_class=brave-work
