@@ -91,3 +91,7 @@ rm ~/.local/bin/linkroute ~/.local/share/applications/linkroute.desktop
 ```sh
 ./test.sh
 ```
+
+## License
+
+MIT, see [LICENSE](LICENSE).
