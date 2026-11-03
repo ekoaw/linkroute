@@ -59,7 +59,7 @@ To start the work profile from the menu or taskbar, add a launcher such as
 [Desktop Entry]
 Type=Application
 Name=Brave (Work)
-Exec=brave --user-data-dir=/home/you/.config/BraveSoftware/Brave-Browser-Work --class=brave-work %U
+Exec=brave --user-data-dir=/home/you/.config/BraveSoftware/Brave-Browser-Work --class=brave-work --no-default-browser-check %U
 Icon=brave-browser
 StartupWMClass=brave-work
 Actions=edit-domains;

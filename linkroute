@@ -20,7 +20,7 @@ if [ -n "$host" ] && [ -r "$conf_dir/work-domains" ]; then
       *.) case "$host" in "$d"*) work=1 ;; esac ;;
       *)  case "$host" in "$d"|*."$d") work=1 ;; esac ;;
     esac
-    [ -n "${work-}" ] && exec "$browser" --user-data-dir="$work_data_dir" --class="$work_class" "$url"
+    [ -n "${work-}" ] && exec "$browser" --user-data-dir="$work_data_dir" --class="$work_class" --no-default-browser-check "$url"
   done < "$conf_dir/work-domains"
 fi
-exec "$browser" "$@"
+exec "$browser" --no-default-browser-check "$@"
